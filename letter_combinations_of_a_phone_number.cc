@@ -21,10 +21,10 @@
 #include <string>
 
 std::vector<std::string> letterCombinations(std::string digits) {
-	int slen = digits.size();
-	std::vector<std::string> res;
+  int slen = digits.size();
+  std::vector<std::string> res;
 
-	if (slen <= 0) {
-		return res;
-	}
+  if (slen <= 0) {
+    return res;
+  }
 }
